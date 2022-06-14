@@ -1,0 +1,28 @@
+/* .bg {
+  background-image: url('../img/bg/bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-attachment: scroll;
+} */
+.bg-block {
+  max-width: 1100px;
+  height: 350px;
+  border: 1px solid rgb(206, 197, 197);
+  margin: auto;
+  /* background-image: url('../img/icons/airbnb.svg'); */
+  background-image: url('../img/bg/bg.jpeg');
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position: bottom right;
+  background-position: center;
+  /* background-position: 20px 50px;
+  background-position: 20% 50%; */
+  background-size: cover;
+  /* background-size: contain; */
+  background-attachment: fixed;
+}
